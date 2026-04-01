@@ -6,16 +6,31 @@ This repo documents the internal architecture, design patterns, and engineering 
 
 ## Table of Contents
 
+### Chinese (中文版)
+
 | # | Document | Description |
 |---|----------|-------------|
-| 1 | [Architecture Overview](docs/01-architecture-overview.md) | High-level system architecture and module map |
-| 2 | [Entry & Startup](docs/02-entry-and-startup.md) | Boot sequence, fast paths, and startup optimizations |
-| 3 | [Query Engine & Conversation Loop](docs/03-query-engine.md) | Core conversation loop, message management, context handling |
-| 4 | [Tool System](docs/04-tool-system.md) | Tool abstraction, 40+ built-in tools, permission model |
-| 5 | [UI Layer (Ink)](docs/05-ui-layer.md) | Custom Ink fork, 200+ React components, terminal rendering |
-| 6 | [Services Layer](docs/06-services-layer.md) | MCP, OAuth, compact, analytics, plugin system |
-| 7 | [Performance & Build](docs/07-performance-and-build.md) | Startup optimization, feature flags, dead code elimination |
-| 8 | [Key Design Patterns](docs/08-design-patterns.md) | Patterns worth adopting in your own projects |
+| 1 | [整体架构概览](docs/01-architecture-overview.md) | High-level system architecture and module map |
+| 2 | [入口与启动流程](docs/02-entry-and-startup.md) | Boot sequence, fast paths, and startup optimizations |
+| 3 | [查询引擎与对话循环](docs/03-query-engine.md) | Core conversation loop, message management, context handling |
+| 4 | [工具系统](docs/04-tool-system.md) | Tool abstraction, 40+ built-in tools, permission model |
+| 5 | [UI 层](docs/05-ui-layer.md) | Custom Ink fork, 200+ React components, terminal rendering |
+| 6 | [服务层](docs/06-services-layer.md) | MCP, OAuth, compact, analytics, plugin system |
+| 7 | [性能与构建](docs/07-performance-and-build.md) | Startup optimization, feature flags, dead code elimination |
+| 8 | [设计模式](docs/08-design-patterns.md) | Patterns worth adopting in your own projects |
+
+### English
+
+| # | Document | Description |
+|---|----------|-------------|
+| 1 | [Architecture Overview](docs/en/01-architecture-overview.md) | High-level system architecture and module map |
+| 2 | [Entry & Startup](docs/en/02-entry-and-startup.md) | Boot sequence, fast paths, and startup optimizations |
+| 3 | [Query Engine & Conversation Loop](docs/en/03-query-engine.md) | Core conversation loop, message management, context handling |
+| 4 | [Tool System](docs/en/04-tool-system.md) | Tool abstraction, 40+ built-in tools, permission model |
+| 5 | [UI Layer (Ink)](docs/en/05-ui-layer.md) | Custom Ink fork, 200+ React components, terminal rendering |
+| 6 | [Services Layer](docs/en/06-services-layer.md) | MCP, OAuth, compact, analytics, plugin system |
+| 7 | [Performance & Build](docs/en/07-performance-and-build.md) | Startup optimization, feature flags, dead code elimination |
+| 8 | [Key Design Patterns](docs/en/08-design-patterns.md) | Patterns worth adopting in your own projects |
 
 ## Tech Stack
 
